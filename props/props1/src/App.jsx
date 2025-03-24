@@ -5,7 +5,7 @@ import MsgBox from './MsgBox'
 const App = () => {
   return (
     <div>
-     <MsgBox userName="aman" textColor="lightblue" />
+     <MsgBox userName="shourya" textColor="blue" />
       <ProductTab/>
 
     </div>

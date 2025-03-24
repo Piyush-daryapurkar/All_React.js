@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Product = ({titel,price ='NA',features=[],features1={}}) => {  //we set the defualt price as NA 
+const Product = ({titel,price ='NA',features=[],features1={}},features2={}) => {  //we set the defualt price as NA 
 
     const list = features.map((i)=> <li>{i}</li>)
     const isDis=price>3000;
@@ -14,6 +14,7 @@ const Product = ({titel,price ='NA',features=[],features1={}}) => {  //we set th
       <h1>{features1.b}</h1>
       <h1>{list}</h1>
       <h1>{isDis ? <p>diccount 4% </p> : null }</h1>
+      <h2>{features2.bb}</h2>
     </div>
 
     </>
